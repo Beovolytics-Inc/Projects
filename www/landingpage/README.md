@@ -17,7 +17,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Integrating with Beovolytics Admin template
 
-Folder structures are same for both projects. You just need to copy home module and uncomment few lines in Beovolytic Admin Dashboard.
+Folder structures are same for both projects. You just need to copy home module and uncomment few lines in Beovolytics Admin Dashboard.
 
   1. Replace Beovolytucs Admin's `home` with Angular landing's `home` folder inside `app/views`.
   2. Uncomment `@import "views/landing";` inside `assets/styles/scss/_views.scss`
