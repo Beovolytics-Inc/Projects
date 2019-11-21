@@ -1,4 +1,4 @@
-# Ng Landing
+# Beovolytics Landing Page
 
 This project was generated with [Angular CLI](https://githubom/angular/angular-cli) version 1.0.4.
 
