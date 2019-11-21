@@ -115,7 +115,7 @@
       }
     }
   },
-  "defaultProject": "egret",
+  "defaultProject": "beovolytics",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",

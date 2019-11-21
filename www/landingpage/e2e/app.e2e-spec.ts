@@ -1,10 +1,10 @@
-import {NgEgretPage} from './app.po';
+import { BeovolyticsPage } from './app.po';
 
-describe('ng-egret App', () => {
-  let page: NgEgretPage;
+describe('beovolytics App', () => {
+  let page: BeovolyticsPage;
 
   beforeEach(() => {
-    page = new NgEgretPage();
+    page = new BeovolyticsPage();
   });
 
   it('should display message saying app works', () => {
