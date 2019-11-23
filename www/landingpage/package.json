@@ -3,7 +3,7 @@
   "version": "8.0.0",
   "license": "https://beovolytics.eu/themes/licenses/terms/regular",
   "author": {
-    "name": "bitwizard"
+    "name": "BitWizard"
   },
   "scripts": {
     "ng": "ng",

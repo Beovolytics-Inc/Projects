@@ -1,4 +1,4 @@
-# Beovolytics Landing page
+# Beovolytics Landing Page
 
 This project was generated with [Angular CLI](https://githubom/angular/angular-cli) version 1.0.4.
 
@@ -14,15 +14,14 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
+## Integrating with Egret Admin template
 
-## Integrating with Beovolytics Admin template
-
-Folder structures are same for both projects. You just need to copy home module and uncomment few lines in Beovolytics Admin Dashboard.
-
-  1. Replace Beovolytucs Admin's `home` with Angular landing's `home` folder inside `app/views`.
+  Folder structures are same for both projects. 
+  You just need to copy home module and uncomment few lines in Egret Admin.
+  1. Replace Egret Admin's `home` with Angular landing's `home` folder inside `app/views`.
   2. Uncomment `@import "views/landing";` inside `assets/styles/scss/_views.scss`
   4. Open `/views/home/home.routing.ts` and set one path empty `{ path: '', component: HomeOneComponent }` otherwise http://localhost:4200/home will show a blank page.
-  
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
