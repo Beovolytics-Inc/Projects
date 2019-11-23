@@ -1,7 +1,7 @@
-import { AfterViewInit, Component, ChangeDetectionStrategy, ChangeDetectorRef, OnInit, Input } from '@angular/core';
-import { NguCarousel, NguCarouselConfig } from '@ngu/carousel';
-import { MatBottomSheet } from '@angular/material';
-import { BottomSheetShareComponent } from '../../../shared/components/bottom-sheet-share/bottom-sheet-share.component';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit} from '@angular/core';
+import {NguCarouselConfig} from '@ngu/carousel';
+import {MatBottomSheet} from '@angular/material';
+import {BottomSheetShareComponent} from '../../../shared/components/bottom-sheet-share/bottom-sheet-share.component';
 
 
 @Component({
@@ -44,7 +44,7 @@ export class PortfolioCarouselComponent implements OnInit {
     text: `Adipisci quas repellat sed. Quasi quaerat aut nam possimus 
     vitae dignissimos, sapiente est atque tenetur`,
     title: 'Project Six',
-  }]
+  }];
   
   constructor(private bottomSheet: MatBottomSheet, private _cdr: ChangeDetectorRef) { 
   }

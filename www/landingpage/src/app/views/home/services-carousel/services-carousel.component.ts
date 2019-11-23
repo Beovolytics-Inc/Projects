@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { NguCarousel, NguCarouselConfig } from '@ngu/carousel';
+import {Component, Input, OnInit} from '@angular/core';
+import {NguCarouselConfig} from '@ngu/carousel';
 
 @Component({
   selector: 'app-services-carousel',
@@ -33,7 +33,7 @@ export class ServicesCarouselComponent implements OnInit {
     icon: 'timeline',
     text: `Lorem ipsum dolor sit amet conse ctetur adipi sicing elit. Doloribus numquam quis.`,
     title: 'Planning Application'
-  }]
+  }];
   
   constructor() { }
 

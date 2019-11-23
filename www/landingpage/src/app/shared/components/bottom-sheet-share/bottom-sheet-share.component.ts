@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { MatBottomSheetRef } from '@angular/material';
+import {Component, OnInit} from '@angular/core';
+import {MatBottomSheetRef} from '@angular/material';
 
 @Component({
   selector: 'app-bottom-sheet-share',

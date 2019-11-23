@@ -1,14 +1,14 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { FontSizeDirective } from './font-size.directive';
-import { ScrollToDirective } from './scroll-to.directive';
+import {FontSizeDirective} from './font-size.directive';
+import {ScrollToDirective} from './scroll-to.directive';
 
 
 const directives = [
   FontSizeDirective,
   ScrollToDirective
-]
+];
 
 @NgModule({
   imports: [

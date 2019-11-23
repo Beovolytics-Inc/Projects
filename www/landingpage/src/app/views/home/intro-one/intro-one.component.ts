@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-intro',
@@ -11,10 +11,10 @@ export class IntroOneComponent implements OnInit {
 
   ngOnInit() {
   }
-  buyBeovolytics() {
-    window.open('https://beovolytics.eu/shop/item/beovolytics-angular-4-material-design-admin-template/20161805?ref=bitwizard');
+  buyService() {
+    window.open('https://www.beovolytics.eu/store/services/');
   }
-  getBEOVOLYTICSLandingpage() {
-    window.open('');
+  portfolio() {
+    window.open('https://www.beovoltics.eu/works/portfolio');
   }
 }

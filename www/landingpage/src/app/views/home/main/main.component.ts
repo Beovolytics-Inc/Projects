@@ -1,5 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { scrollTo } from '../../../shared/helpers/utils';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-main',
@@ -17,7 +16,7 @@ export class MainComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
   }
 
-  moreTemplates() {
+  main() {
     window.open('https://beovolytics-ui-lib.com/downloads/beovolytics-html5-free-landing-page/');
   }
 

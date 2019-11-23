@@ -1,6 +1,6 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { BottomSheetShareComponent } from './bottom-sheet-share.component';
+import {BottomSheetShareComponent} from './bottom-sheet-share.component';
 
 describe('BottomSheetShareComponent', () => {
   let component: BottomSheetShareComponent;

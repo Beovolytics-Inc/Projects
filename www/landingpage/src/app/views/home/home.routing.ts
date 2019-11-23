@@ -1,10 +1,10 @@
-import { Routes } from '@angular/router';
+import {Routes} from '@angular/router';
 
-import { HomeOneComponent } from './home-one.component';
-import { HomeTwoComponent } from './home-two.component';
-import { AllSectionsComponent } from './all-sections.component';
-import { DemoComponent } from './demo/demo.component';
-import { MainComponent } from './main/main.component';
+import {HomeOneComponent} from './home-one.component';
+import {HomeTwoComponent} from './home-two.component';
+import {AllSectionsComponent} from './all-sections.component';
+import {DemoComponent} from './demo/demo.component';
+import {MainComponent} from './main/main.component';
 
 export const HomeRoutes: Routes = [
   { path: 'home', component: MainComponent },

@@ -1,6 +1,6 @@
-import { Component, OnInit, HostListener, HostBinding, Inject, Input } from '@angular/core';
-import { DOCUMENT } from '@angular/common';
-import { WINDOW_PROVIDERS, WINDOW } from '../../../shared/helpers/window.helper';
+import {Component, HostBinding, HostListener, Inject, OnInit} from '@angular/core';
+import {DOCUMENT} from '@angular/common';
+import {WINDOW} from '../../../shared/helpers/window.helper';
 
 @Component({
   selector: 'app-header',
@@ -31,9 +31,8 @@ export class HeaderComponent implements OnInit {
   toggleMenu() {
     this.menuOpened = !this.menuOpened
   }
-
-  buyBeovolytics() {
-    this.window.open('https://beovolytics.eu/shop/item/beovolytics-angular-4-material-design-admin-template/20161805?ref=bitwizard');
+  register() {
+    this.window.open('https://beovolytics.eu/register/account/');
   }
 
 }

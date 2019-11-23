@@ -1,5 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { scrollTo } from '../../../shared/helpers/utils';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-demo',
@@ -17,8 +16,8 @@ export class DemoComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
   }
 
-  moreTemplates() {
-    window.open('https:/beovolytics.eu/shop/ui/ux/downloads/egret-html5-free-landing-page/');
+  bitFinance() {
+    window.open('https://www.bitfinance.biz');
   }
 
 }

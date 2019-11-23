@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { NguCarousel, NguCarouselConfig } from '@ngu/carousel';
+import {Component, Input, OnInit} from '@angular/core';
+import {NguCarouselConfig} from '@ngu/carousel';
 
 @Component({
   selector: 'app-testimonials',
@@ -31,7 +31,7 @@ export class TestimonialsComponent implements OnInit {
     atis magnam tempora doloribus ducimus dolorem culpa animi beatae tenetur! Sapiente, quia tempora."`,
     title: 'Jhone White',
     subtitle: 'Software Engineer'
-  }]
+  }];
   constructor() { }
 
   ngOnInit() {
