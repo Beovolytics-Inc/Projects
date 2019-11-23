@@ -11,8 +11,7 @@
 
 jQuery.fn.reverse = [].reverse;
 
-;( function( $, window, undefined ) {
-	
+(function ($, window, undefined) {
 	'use strict';
 
 	// global
@@ -152,7 +151,7 @@ jQuery.fn.reverse = [].reverse;
 			this.$items.filter( function() {
 
 				var zIdx = Number( $( this ).css( 'z-index' ) ),
-					cond = dir === 'next' ? zIdx < currZIndex : zIdx > currZIndex
+					cond = dir === 'next' ? zIdx < currZIndex : zIdx > currZIndex;
 				
 				return cond;
 
@@ -246,7 +245,7 @@ jQuery.fn.reverse = [].reverse;
 					'-ms-transition' : prop + ' ' + speed + 'ms ' + easing + ' ' + delay + 'ms',
 					'-o-transition' : prop + ' ' + speed + 'ms ' + easing + ' ' + delay + 'ms',
 					'transition' : prop + ' ' + speed + 'ms ' + easing + ' ' + delay + 'ms'
-				}
+				};
 
 			$el.css( styleCSS );
 

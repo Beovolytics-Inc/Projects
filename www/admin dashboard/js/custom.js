@@ -273,7 +273,7 @@ $(document).ready(function() {
 			$('.subscription-failed').fadeOut(5000);
 		}
 		$('#subscription-form .input-email').val('');
-	};
+	}
 });
 
 			
@@ -302,4 +302,3 @@ $(document).ready(function() {
 	});
 
 });
-			
